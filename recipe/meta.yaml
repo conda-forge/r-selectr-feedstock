@@ -1,4 +1,4 @@
-{% set version = '0.4-1' %}
+{% set version = "0.4-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/selectr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/selectr/selectr_{{ version }}.tar.gz
-  sha256: 8bd42f167629344e485e586f9b05fed342746132489079084d82133d7b3ee2ca
+  sha256: 5588aed05f3f5ee63c0d29953ef53da5dac7afccfdd04b7b22ef24e1e3b0c127
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
