@@ -3,7 +3,7 @@ About r-selectr
 
 Home: https://sjp.co.nz/projects/selectr
 
-Package license: BSD_3_clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-selectr-feedstock/blob/master/LICENSE.txt)
 
