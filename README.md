@@ -1,11 +1,11 @@
-About r-selectr
-===============
+About r-selectr-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-selectr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://sjp.co.nz/projects/selectr
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-selectr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Translates a CSS3 selector into an equivalent XPath expression. This allows us to use CSS selectors when working with the XML package as it can only evaluate XPath expressions. Also provided are convenience functions useful for using CSS selectors on XML nodes. This package is a port of the Python package 'cssselect' (<https://cssselect.readthedocs.io/>).
 
