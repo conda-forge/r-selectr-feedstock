@@ -1,4 +1,4 @@
-{% set version = "0.5-1" %}
+{% set version = "0.6-0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/selectr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/selectr/selectr_{{ version }}.tar.gz
-  sha256: e8a6f1f4cc8b91efdf8a69dd5344b112149b5c21973c7987db63be931267f165
+  sha256: b877dfd9cc8b7d9afda1be9e45dfafc942e14b4279a430e5f8f75325c05eddd9
 
 build:
   number: 0
@@ -38,8 +38,8 @@ test:
 about:
   home: https://sjp.co.nz/projects/selectr
   license: BSD-3-Clause
-  summary: Translates a CSS3 selector into an equivalent XPath expression. This allows us to use CSS selectors when working with the XML package as it can only evaluate XPath expressions. Also provided are convenience functions useful for using CSS selectors on XML nodes. This package is a port of the Python package 'cssselect'
-    (<https://cssselect.readthedocs.io/>).
+  summary: Translates a CSS3 selector into an equivalent XPath expression. This allows us to use CSS selectors when working with the XML package as it can only evaluate XPath expressions. Also provided are convenience functions useful for using CSS selectors on XML nodes. This package is a port of the Python package 
+    'cssselect' (<https://cssselect.readthedocs.io/>).
   license_family: BSD
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/BSD_3_clause'
