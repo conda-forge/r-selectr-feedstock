@@ -1,15 +1,15 @@
-{% set version = "0.6-0" %}
+{% set version = "0.8-0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-selectr
-  version: "{{ version|replace("-", "_") }}"
+  version: {{ version|replace("-", "_") }}
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/selectr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/selectr/selectr_{{ version }}.tar.gz
-  sha256: b877dfd9cc8b7d9afda1be9e45dfafc942e14b4279a430e5f8f75325c05eddd9
+  sha256: dc5d839559bc5d00f579ff19add013fe9f93dd5a63c78b4adbc673525dae49da
 
 build:
   number: 0
